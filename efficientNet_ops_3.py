@@ -1,19 +1,14 @@
-#-*- coding:utf-8 -*-
-import matplotlib.pyplot as plt #모형 학습시 accuracy와 loss를 저장하기 위한 라이브러리입니다.
-
-"""시드 고정을 위한 라이브러리"""
+import matplotlib.pyplot as plt
 import random
 import numpy as np
 
-"""전처리를 위한 라이브러리"""
 import os
 import pandas as pd
 
-"""Keras 라이브러리"""
-import tensorflow.keras as keras #keras 라이브러리입니다.
-from tensorflow.keras.preprocessing.image import ImageDataGenerator #이미지 데이터를 tensor로 변환하기 위해 활용되는 라이브러리입니다.
-from tensorflow.keras.layers import Dense #학습 모형을 구축하기 위해 활용되는 라이브러리입니다.
-from tensorflow.keras import Sequential #학습 모형을 구축하기 위해 활용되는 라이브러리 입니다.
+import tensorflow.keras as keras
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.layers import Dense
+from tensorflow.keras import Sequential
 
 from tensorflow.keras.applications.resnet import ResNet50, ResNet101, ResNet152
 from tensorflow.keras.applications.resnet_v2 import ResNet50V2, ResNet101V2, ResNet152V2

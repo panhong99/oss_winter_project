@@ -1,6 +1,6 @@
 from efficientNet_ops_3 import *
 
-train_path = '/home/hail/Desktop/pan/animal_eye_problem/data/data/train/label/dog/안구/안구초음파/Cataract' #경로 마지막에 반드시 '/'를 기입해야합니다.
+train_path = '/home/hail/Desktop/pan/animal_eye_problem/data/data/train/label/dog/안구/안구초음파/Cataract'
 # val_path = '/home/mark11/dog&cat/cat/Sequestrum/validation/'
 model_name = 'efficientnet'
 epoch = 100
@@ -17,7 +17,7 @@ if __name__ == '__main__':
     from tensorflow.python.client import device_lib
     device_lib.list_local_devices()
 
-train_path = '/home/mark11/label/cat/Keratitis/train/' #경로 마지막에 반드시 '/'를 기입해야합니다.
+train_path = '/home/mark11/label/cat/Keratitis/train/'
 # val_path = '/home/mark11/dog&cat/cat/Sequestrum/validation/'
 model_name = 'efficientnet'
 epoch = 100
@@ -34,7 +34,7 @@ if __name__ == '__main__':
     from tensorflow.python.client import device_lib
     device_lib.list_local_devices()
 
-train_path = '/home/mark11/label/cat/Sequestrum/train/' #경로 마지막에 반드시 '/'를 기입해야합니다.
+train_path = '/home/mark11/label/cat/Sequestrum/train/'
 # val_path = '/home/mark11/dog&cat/cat/Sequestrum/validation/'
 model_name = 'efficientnet'
 epoch = 100
@@ -51,7 +51,7 @@ if __name__ == '__main__':
     from tensorflow.python.client import device_lib
     device_lib.list_local_devices()
 
-train_path = '/home/mark11/label/dog/Cataract/train/' #경로 마지막에 반드시 '/'를 기입해야합니다.
+train_path = '/home/mark11/label/dog/Cataract/train/'
 # val_path = '/home/mark11/dog&cat/cat/Sequestrum/validation/'
 model_name = 'efficientnet'
 epoch = 100
@@ -68,7 +68,7 @@ if __name__ == '__main__':
     from tensorflow.python.client import device_lib
     device_lib.list_local_devices()
 
-train_path = '/home/mark11/label/dog/Epiphora/train/' #경로 마지막에 반드시 '/'를 기입해야합니다.
+train_path = '/home/mark11/label/dog/Epiphora/train/'
 # val_path = '/home/mark11/dog&cat/cat/Sequestrum/validation/'
 model_name = 'efficientnet'
 epoch = 100
@@ -85,7 +85,7 @@ if __name__ == '__main__':
     from tensorflow.python.client import device_lib
     device_lib.list_local_devices()
 
-train_path = '/home/mark11/label/dog/Sclerosis/train/' #경로 마지막에 반드시 '/'를 기입해야합니다.
+train_path = '/home/mark11/label/dog/Sclerosis/train/'
 # val_path = '/home/mark11/dog&cat/cat/Sequestrum/validation/'
 model_name = 'efficientnet'
 epoch = 100
