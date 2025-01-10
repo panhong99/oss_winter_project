@@ -1,5 +1,4 @@
 # oss_winter_project
-
 1.	모델 실행 
 1.1	EfficientNet_ai_train.py
 Train_path를 install한 train데이터폴더에서 사용자가 학습을 원하는 질병이미지가 존재하는 폴더로 설정
